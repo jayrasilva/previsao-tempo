@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/background.avif");
+}
+
+.caixa-maior{
+    background: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 70px);
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #ebe8e82b;
+    cursor: pointer;
+    float: right;
+}
+.buscar{
+    width: 20px;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.temperatura{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+p{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: #fff;
+    margin-top: 20px;
+}
